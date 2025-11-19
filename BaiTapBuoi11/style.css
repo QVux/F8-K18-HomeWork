@@ -1,63 +1,28 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
 
+html{
+    font-size: 16px;
 }
+
 .wrapper {
     background-image: url("https://images.unsplash.com/photo-1579547621706-1a9c79d5c9f1?q=80&w=2070&auto=format&fit=crop");
     background-size: cover;
-    padding: 3rem 3rem 3rem 7rem;
+    padding: 1rem 1rem 1rem 1rem;
+
 }
 
 .wrap {
-    width: 90rem;
-    padding: 2rem 1rem;
-    border-radius: 2rem;
+    margin: 1rem;
+    padding: 1rem;
     background: rgba(255, 255, 255, 0.4);
+    border-radius: 2rem;
+    text-align: center;
 }
 
 h1{
@@ -68,7 +33,7 @@ h1{
     margin-bottom: 1rem;
 }
 
-h1 span{
+h1 b{
     color: #c084fc;
     font-size: 4rem;
     font-weight: 700;
@@ -97,7 +62,7 @@ button{
     background-color: #a855f7;
     border: none;
     border-radius: 1rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.7rem 1.5rem;
 }
 
 button:hover{
@@ -107,10 +72,9 @@ button:hover{
 .logo {
     border-radius: 10rem;
     border: 0.25rem solid rgba(192, 132, 252, 0.6);
-    width: 2rem;
-    height: 2rem;
-    margin-left: 43.5rem;
-    margin-bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1rem;
 }
 
 .description-2{
@@ -118,6 +82,7 @@ button:hover{
     text-align: center;
     font-size: 1.25rem;
     font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 strong{
@@ -125,32 +90,24 @@ strong{
     color: #c084fc;
 }
 
-.checkbox{
+label{
     text-align: center;
-    margin: 1rem;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.375rem;
+    text-align: center;
+    padding-top: 1rem;
     line-height: 1.6;
 }
 
-.checkbox span{
+.advice{
+    height: 9rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-#checkbox:checked ~ .advice{
-    border-color: rgba(192, 132, 252, 0.35);
-    background: rgba(192, 132, 252, 0.35);
-}
-
-#checkbox:checked ~ .advice h2,
-#checkbox:checked ~ .advice p{
-    color: #6b21a8;
-}
-
-.advice {
-    width: 88rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 2rem;
-    background: rgba(255, 255, 255, 0.4);
 }
 
 .advice p{
@@ -158,14 +115,15 @@ strong{
     text-align: center;
     font-size: 1.125rem;
     font-weight: 400;
-    margin: 1rem;
     padding: 1rem;
     line-height: 1.6;
 }
-h2{
-    font-weight: 700;
-    font-size: 1.375rem;
-    text-align: center;
+
+#checkbox:checked ~ .advice{
+    background-color: rgba(192, 132, 252, 0.35);
+}
+#checkbox:checked ~ .advice h2, #checkbox:checked ~ .advice p{
+    color: #6b21a8;
 }
 
 .benefits{
@@ -185,16 +143,9 @@ h2{
     height: 1.2rem;
 }
 
-hr {
-    border: 0.1rem solid rgba(192, 132, 252, 0.6);
-    margin: 2rem 0;
-}
-
-footer p{
-    background-color: rgba(255, 255, 255, 0.35);
+footer{
     text-align: center;
-    padding-bottom: 2rem;
+    padding: 1rem;
+    border-top: 0.1rem solid #c084fc;
+    margin-top: 2rem;
 }
-
-
-
