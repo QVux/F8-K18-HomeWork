@@ -76,8 +76,6 @@ h1 b{
     display: none;
 }
 
-/*========================================================*/
-/* MODAL START */
 .box-start {
     width: 30rem;
     height: 30rem;
@@ -91,7 +89,6 @@ h1 b{
     border-radius: 2rem;
 }
 
-/* Nội dung trong modal Start */
 .feature-start{
     font-size: 1rem;
     font-weight: 400;
@@ -101,7 +98,6 @@ h1 b{
     text-align: left;
 }
 
-/* Hiển thị modal khi checkbox được checked */
 #start:checked ~ .box-modal-start {
     display: block;
 }
@@ -109,7 +105,6 @@ h1 b{
     display: block;
 }
 
-/* Nút đóng modal */
 .close-start {
     position: absolute;
     color: black;
@@ -120,13 +115,11 @@ h1 b{
     cursor: pointer;
 }
 
-/* Icon checkmark */
 .icon-check {
     width: 1.1rem;
     height: 1.1rem;
 }
 
-/* Nút "Bắt đầu ngay" trong modal */
 #start-1 {
     display: inline-block;
     border-radius: 2rem;
@@ -139,7 +132,6 @@ h1 b{
     cursor: pointer;
 }
 
-/* Link "more" */
 .more{
     display: inline-block;
     color: #a855f7;
@@ -150,22 +142,18 @@ h1 b{
     text-decoration: underline;
 }
 
-/* Nội dung modal Start */
 .content-start{
     color: rgba(51, 65, 85, 0.91);
     font-size: 1.2em;
     font-weight: 400;
 }
 
-/* Tiêu đề modal Start */
 .headding-start{
     font-size: 2rem;
     font-weight: 400;
     line-height: 3rem;
     margin: 1rem;
     }
-
-/*Consult*/
 
 #consult{
     display: none;
@@ -225,7 +213,6 @@ h1 b{
     margin: 1rem;
 }
 
-/* Nội dung modal Consult */
 .content-consult{
     color: rgba(51, 65, 85, 0.91);
     padding-bottom: 1rem;
@@ -277,8 +264,6 @@ h1 b{
     padding-left: 0.3rem;
 }
 
-/*========================================================*/
-/* TOOLTIP INPUT SDT */
 #phone:hover + .box-phone-1 {
     display: block;
 }
@@ -320,8 +305,6 @@ h1 b{
     position: relative;
 }
 
-/*========================================================*/
-/* TOOLTIP INPUT EMAIL */
 #email:hover + .box-email-1 {
     display: block;
 }
@@ -374,11 +357,6 @@ h1 b{
     margin-top: 0.5rem;
 }
 
-/*========================================================*/
-/* CHECKLIST SKILL & TOOLTIP */
-/*========================================================*/
-/* CHECKLIST TOOLTIP */
-/* Tooltip cho HTML */
 .check-html {
     position: relative;
 }
@@ -417,7 +395,6 @@ h1 b{
     left: 1rem;
 }
 
-/* Tooltip cho Java */
 .check-js{
     position: relative;
 }
@@ -456,7 +433,6 @@ h1 b{
     left: 1rem;
 }
 
-/* Tooltip cho Front-End */
 .check-front-end{
     position: relative;
 }
@@ -495,7 +471,6 @@ h1 b{
     left: 1rem;
 }
 
-/* Tooltip cho JS */
 .check-reactjs{
     position: relative;
 }
@@ -534,7 +509,6 @@ h1 b{
     left: 1rem;
 }
 
-/* Tooltip cho không skill */
 .check{
     position: relative;
 }
@@ -573,8 +547,6 @@ h1 b{
     left: 1rem;
 }
 
-/*========================================================*/
-/* DANH SÁCH CHECKLIST */
 .list_check {
     position: relative;
     width: 30rem;
@@ -582,7 +554,6 @@ h1 b{
     margin: 1rem;
 }
 
-/* Label trong checklist */
 .check-html label ,
 .check-js label,
 .check-front-end label,
@@ -595,7 +566,6 @@ h1 b{
     cursor: pointer;
 }
 
-/* Checkbox */
 .check-html input[type="checkbox"],
 .check-js input[type="checkbox"],
 .check-front-end input[type="checkbox"] ,
@@ -604,14 +574,12 @@ h1 b{
     cursor: pointer;
 }
 
-/* Tiêu đề danh sách */
 .list_check > div:first-child {
     font-size: 1.3rem;
     font-weight: 600;
     color: #222;
 }
 
-/* Nút modal start thêm */
 #register {
     display: inline-block;
     border-radius: 2rem;
