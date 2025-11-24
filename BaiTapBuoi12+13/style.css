@@ -1,0 +1,776 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+.wrapper {
+    background-image: url("https://images.unsplash.com/photo-1579547621706-1a9c79d5c9f1?q=80&w=2070&auto=format&fit=crop");
+    background-size: cover;
+    padding: 1rem 1rem 1rem 1rem;
+
+}
+
+.wrap {
+    margin: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+h1{
+    color: #1e293b;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1 b{
+    color: #c084fc;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem;
+}
+
+.description-1{
+    color: #334155;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem;
+    line-height: 1.6;
+}
+
+.open-start {
+    padding: 0.7rem;
+    border-radius: 5rem;
+    background-color: #a855f7;
+    color: white;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.open-start:hover {
+    background-color: #9333ea;
+}
+
+#start {
+    display: none;
+}
+
+.box-modal-start , .box-modal-consult{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    display: none;
+}
+
+/*========================================================*/
+/* MODAL START */
+.box-start {
+    width: 30rem;
+    height: 30rem;
+    padding: 1.25rem;
+    background-color: white;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    z-index: 2;
+    display: none;
+    border-radius: 2rem;
+}
+
+/* Nội dung trong modal Start */
+.feature-start{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(51, 65, 85, 0.91);
+    margin: 1rem;
+    display: block;
+    text-align: left;
+}
+
+/* Hiển thị modal khi checkbox được checked */
+#start:checked ~ .box-modal-start {
+    display: block;
+}
+#start:checked ~ .box-start {
+    display: block;
+}
+
+/* Nút đóng modal */
+.close-start {
+    position: absolute;
+    color: black;
+    right: 1rem;
+    top: 1rem;
+    padding: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Icon checkmark */
+.icon-check {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+/* Nút "Bắt đầu ngay" trong modal */
+#start-1 {
+    display: inline-block;
+    border-radius: 2rem;
+    background-color: #a855f7;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    width: 13rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+/* Link "more" */
+.more{
+    display: inline-block;
+    color: #a855f7;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+.more:hover {
+    text-decoration: underline;
+}
+
+/* Nội dung modal Start */
+.content-start{
+    color: rgba(51, 65, 85, 0.91);
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+/* Tiêu đề modal Start */
+.headding-start{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin: 1rem;
+    }
+
+/*Consult*/
+
+#consult{
+    display: none;
+}
+
+.open-consult {
+    padding: 0.7rem;
+    border-radius: 5rem;
+    background-color: rgba(236, 94, 53, 0.89);
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.open-consult:hover {
+    background-color: #d8431c;
+}
+
+#consult:checked ~ .box-modal-consult {
+    display: block;
+}
+
+#consult:checked ~ .box-consult {
+    display: block;
+}
+
+.box-consult {
+    width: 30rem;
+    height: 42rem;
+    padding: 1.25rem;
+    background-color: white;
+    position: fixed;
+    inset: 0;
+    margin: auto;
+    z-index: 2;
+    display: none;
+    border-radius: 2rem;
+}
+
+.close-consult {
+    position: absolute;
+    color: black;
+    right: 1rem;
+    top: 0.5rem;
+    padding: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.headding-consult {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin: 1rem;
+}
+
+/* Nội dung modal Consult */
+.content-consult{
+    color: rgba(51, 65, 85, 0.91);
+    padding-bottom: 1rem;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.required {
+    color: red;
+}
+
+#name:hover + .box-name-1 {
+    display: block;
+}
+.box-name-3{
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 0.5rem solid black;
+    position: absolute;
+    left: 1.5rem;
+    top: 3rem;
+}
+.box-name-2{
+    width: 15rem;
+    height: 3rem;
+    padding: 0.8rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    color: white;
+}
+.box-name-1{
+    display: none;
+    position: absolute;
+    top: -2rem;
+}
+.box-name{
+    position: relative;
+}
+.name{
+    width: 25rem;
+    height: 3rem;
+    font-weight: 400;
+    border: 0.1rem solid #c8c8c8;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+}
+
+/*========================================================*/
+/* TOOLTIP INPUT SDT */
+#phone:hover + .box-phone-1 {
+    display: block;
+}
+.box-phone-1 {
+    display: none;
+    position: absolute;
+    top: -2rem;
+    left: 0;
+}
+.box-phone-2 {
+    width: 15rem;
+    height: 2.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    position: relative;
+}
+.box-phone-3 {
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 0.5rem solid black;
+    left: 2rem;
+    top: 2.5rem;
+    position: absolute;
+}
+.phone{
+    width: 25rem;
+    height: 3rem;
+    font-weight: 400;
+    border: 0.1rem solid #c8c8c8;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+}
+.box-phone {
+    position: relative;
+}
+
+/*========================================================*/
+/* TOOLTIP INPUT EMAIL */
+#email:hover + .box-email-1 {
+    display: block;
+}
+.box-email-3{
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 0.5rem solid black;
+    left: 2rem;
+    top: 2.5rem;
+    position: absolute;
+}
+.box-email-2{
+    width: 22rem;
+    height: 2.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: relative;
+    padding: 0.5rem;
+    color: white;
+}
+.box-email-1{
+    display: none;
+    position: absolute;
+    top: -2rem;
+}
+.box-email{
+    position: relative;
+}
+.email{
+    width: 25rem;
+    height: 3rem;
+    font-weight: 400;
+    border: 0.1rem solid #c8c8c8;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding-left: 0.3rem;
+}
+.box-name label,
+.box-phone label,
+.box-email label {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #222;
+    display: block;
+    text-align: left;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/*========================================================*/
+/* CHECKLIST SKILL & TOOLTIP */
+/*========================================================*/
+/* CHECKLIST TOOLTIP */
+/* Tooltip cho HTML */
+.check-html {
+    position: relative;
+}
+
+.check-html:hover .check-html-1 {
+    display: block;
+}
+
+.check-html-1 {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    z-index: 10;
+}
+
+.check-html-2 {
+    width: 18rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -5rem;
+}
+
+.check-html-3 {
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-top: 0.5rem solid black;
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+}
+
+/* Tooltip cho Java */
+.check-js{
+    position: relative;
+}
+
+.check-js:hover .check-js-1 {
+    display: block;
+}
+
+.check-js-1 {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    z-index: 10;
+}
+
+.check-js-2 {
+    width: 18rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -5rem;
+}
+
+.check-js-3 {
+    width: 0;
+    height: 0;
+    border-left: 0.4375rem solid transparent;
+    border-right: 0.4375rem solid transparent;
+    border-top: 0.75rem solid black;
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+}
+
+/* Tooltip cho Front-End */
+.check-front-end{
+    position: relative;
+}
+
+.check-front-end:hover .check-front-end-1 {
+    display: block;
+}
+
+.check-front-end-1 {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    z-index: 10;
+}
+
+.check-front-end-2 {
+    width: 22rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -5rem;
+}
+
+.check-front-end-3 {
+    width: 0;
+    height: 0;
+    border-left: 0.4375rem solid transparent;
+    border-right: 0.4375rem solid transparent;
+    border-top: 0.75rem solid black;
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+}
+
+/* Tooltip cho JS */
+.check-reactjs{
+    position: relative;
+}
+
+.check-reactjs:hover .check-reactjs-1 {
+    display: block;
+}
+
+.check-reactjs-1 {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    z-index: 10;
+}
+
+.check-reactjs-2 {
+    width: 22rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -5rem;
+}
+
+.check-reactjs-3 {
+    width: 0;
+    height: 0;
+    border-left: 0.4375rem solid transparent;
+    border-right: 0.4375rem solid transparent;
+    border-top: 0.75rem solid black;
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+}
+
+/* Tooltip cho không skill */
+.check{
+    position: relative;
+}
+
+.check:hover .check-1 {
+    display: block;
+}
+
+.check-1 {
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    z-index: 10;
+}
+
+.check-2 {
+    width: 22rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    position: relative;
+    top: -5rem;
+}
+
+.check-3 {
+    width: 0;
+    height: 0;
+    border-left: 0.4375rem solid transparent;
+    border-right: 0.4375rem solid transparent;
+    border-top: 0.75rem solid black;
+    position: absolute;
+    top: 100%;
+    left: 1rem;
+}
+
+/*========================================================*/
+/* DANH SÁCH CHECKLIST */
+.list_check {
+    position: relative;
+    width: 30rem;
+    text-align: left;
+    margin: 1rem;
+}
+
+/* Label trong checklist */
+.check-html label ,
+.check-js label,
+.check-front-end label,
+.check-reactjs label,
+.check label{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #222;
+    line-height: 1.6;
+    cursor: pointer;
+}
+
+/* Checkbox */
+.check-html input[type="checkbox"],
+.check-js input[type="checkbox"],
+.check-front-end input[type="checkbox"] ,
+.check-reactjs input[type="checkbox"] ,
+.check input[type="checkbox"] {
+    cursor: pointer;
+}
+
+/* Tiêu đề danh sách */
+.list_check > div:first-child {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Nút modal start thêm */
+#register {
+    display: inline-block;
+    border-radius: 2rem;
+    background-color: rgba(255, 0, 0, 0.77);
+    color: white;
+    height: 3rem ;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.logo {
+    border-radius: 10rem;
+    border: 0.25rem solid rgba(192, 132, 252, 0.6);
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+}
+
+.description-2{
+    color: #334155;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+strong{
+    font-weight: 700;
+    color: #c084fc;
+}
+
+label{
+    text-align: center;
+    cursor: pointer;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 1.375rem;
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 1.6;
+}
+
+.advice{
+    height: 9rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.advice p{
+    color: #334155;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+#checkbox:checked ~ .advice{
+    background-color: rgba(192, 132, 252, 0.35);
+}
+#checkbox:checked ~ .advice h2, #checkbox:checked ~ .advice p{
+    color: #6b21a8;
+}
+
+.benefits{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.benefits span{
+    padding-right: 2rem;
+    color: #334155;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.benefits img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    border-top: 0.1rem solid #c084fc;
+    margin-top: 2rem;
+}
+
+img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.faq input {
+    display: none;
+}
+
+.item {
+    background-color: white;
+    width: 45rem;
+    text-align: center;
+    border: 0.2rem solid rgba(192, 132, 252, 0.3);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin: auto;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.item .question{
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.answer {
+    display: none;
+    text-align: left;
+    padding: 1rem;
+}
+
+
+.icon-open, .icon-close {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    color: #c084fc;
+}
+
+.icon-close {
+    display: none;
+}
+
+.item input:checked + .question .icon-open {
+    display: none;
+}
+.item input:checked + .question .icon-close {
+    display: block;
+}
+
+.item input:checked ~ .answer {
+    display: block;
+    background-color: rgba(192, 132, 252, 0.35);
+}
+
+.item input:checked + .question {
+    background-color: rgba(192, 132, 252, 0.5);
+}
+
+
+
