@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+
+.header-bar {
+    border-bottom: 0.1rem solid #a3a2a2;
+}
+
+.header-bar .header-bar--content {
+    position: relative;
+    margin: auto;
+    width: 40rem;
+}
+
+img {
+    margin-top: 0.5rem;
+}
+
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+}
+
+
+span {
+    font-size: 0.8rem;
+}
+
+.header-menu,
+.sub-menu-1,
+.sub-menu-2 {
+    list-style: none;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+.header-bar nav li {
+    position: relative;
+    padding: 0.5rem 0.5rem;
+}
+
+.header-menu .sub-menu-1 {
+    display: none;
+    position: absolute;
+    top: 1.8rem;
+    left: 0;
+    width: 12rem;
+    border: 0.1rem solid #dddddd;
+    background-color: #ffffff;
+}
+
+.header-menu .sub-menu-2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 12rem;
+    border: 0.1rem solid #dddddd;
+    background-color: #ffffff;
+}
+
+.header-bar nav li:hover > .sub-menu-1 {
+    display: block;
+}
+
+.sub-menu-1 li:hover > .sub-menu-2 {
+    display: block;
+}
+
+.header-bar .header-bar--content nav li > ul li a {
+    display: block;
+}
+
+.sub-menu-1 li a:hover,
+.sub-menu-2 li a:hover {
+    background-color: #f5f5f5;
+}
+
+.header-bar nav a:hover {
+    color: #d62828;
+    cursor: pointer;
+}
+
+.sub-menu-1 li,
+.sub-menu-2 li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.sub-menu-1 li span,
+.sub-menu-2 li span {
+    margin-left: 0.5rem;
+}
