@@ -625,7 +625,7 @@ h2{
 }
 
 .advice{
-    height: 9rem;
+    /*height: 9rem;*/
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 15px;
     margin-top: 1rem;
@@ -687,7 +687,6 @@ img {
     text-align: center;
     border: 0.2rem solid rgba(192, 132, 252, 0.3);
     border-radius: 1.5rem;
-    padding: 1rem;
     margin: auto;
     line-height: 1.6;
     margin-bottom: 1rem;
