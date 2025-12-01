@@ -1648,12 +1648,12 @@ img {
 
 .btn-login {
     background-color: white;
-    border: 1px solid #a855f7;
+    border: 1px solid #a6a6a6;
     margin-right: 0.5rem;
 }
 
 .btn-login:hover {
-    background-color: #f5f3ff;
+    background-color: rgba(168, 85, 247, 0.1);
 }
 
 .btn-start {
