@@ -677,66 +677,53 @@ img {
     height: 1.2rem;
 }
 
-.faq input {
-    display: none;
+.expand-panel{
+    width: 50%;
+    margin: 1rem auto;
 }
 
-.item {
-    background-color: white;
-    width: 45rem;
-    text-align: center;
-    border: 0.2rem solid rgba(192, 132, 252, 0.3);
-    border-radius: 1.5rem;
-    margin: auto;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-    cursor: pointer;
-}
-
-.item .question{
-    cursor: pointer;
-}
-
-.question {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
-
-.answer {
-    display: none;
-    text-align: left;
+.expand-title{
+    background-color: #ead2ef;
     padding: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    text-align: left;
 }
 
-
-.icon-open, .icon-close {
+.expand-title--icon{
     position: absolute;
-    right: 1rem;
-    top: 0;
-    bottom: 0;
-    margin: auto 0;
-    color: #c084fc;
+    right: 2rem;
+    top: 1rem;
+    color: #7228e3;
+    font-weight: bold;
 }
 
-.icon-close {
-    display: none;
+.expand-title--icon::before{
+    content: "-";
 }
 
-.item input:checked + .question .icon-open {
-    display: none;
+.expand-title:hover{
+    background-color: #dca5e4;
+    cursor: pointer;
 }
-.item input:checked + .question .icon-close {
+
+.expand-content{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.expand-panel input[type=checkbox]:checked ~ .expand-content{
     display: block;
 }
 
-.item input:checked ~ .answer {
-    display: block;
-    background-color: rgba(192, 132, 252, 0.35);
+.expand-panel input[type=checkbox]:checked ~ label .expand-title{
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
-.item input:checked + .question {
-    background-color: rgba(192, 132, 252, 0.5);
+.expand-panel input[type=checkbox]:checked ~ label .expand-title--icon::before{
+    content: "+";
 }
 
 
