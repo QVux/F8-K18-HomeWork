@@ -1567,7 +1567,6 @@ img {
     font-size: 0.8rem;
 }
 
-/* Dropdown Menu Styling */
 .submenu,
 .submenu-3,
 .submenu-4,
@@ -1627,7 +1626,6 @@ img {
     font-size: 0.8rem;
 }
 
-/* Button Styling (Đăng nhập & Bắt đầu học) */
 .auth-buttons {
     display: flex;
     align-items: center;
@@ -1642,7 +1640,6 @@ img {
     border-radius: 50px;
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
     outline: none;
 }
 
