@@ -1613,11 +1613,13 @@ img {
 
 .menu-item a:hover{
     background-color: rgba(168, 85, 247, 0.1);
+    border-radius: 20px;
 }
 
 .submenu-item a:hover {
     background-color: #f5f3ff;
     color: #a855f7;
+    border-radius: 20px;
 }
 
 .arrow-right {
