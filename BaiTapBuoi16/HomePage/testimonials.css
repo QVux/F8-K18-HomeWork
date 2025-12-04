@@ -43,6 +43,42 @@
 .testimonials-item-03{
     margin-right: 30px;
 }
+.testimonials-information-01 a:hover,
+.testimonials-information-02 a:hover,
+.testimonials-information-03 a:hover,
+.testimonials-information-04 a:hover{
+    opacity: 0.8;
+}
+.testimonials-information-01 a,
+.testimonials-information-02 a,
+.testimonials-information-03 a,
+.testimonials-information-04 a{
+    text-decoration: none;
+    color: #262626;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 18px 24px;
+}
+.testimonials-information-name-01,
+.testimonials-information-name-02,
+.testimonials-information-name-03,
+.testimonials-information-name-04{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.testimonials-information-name-01 span,
+.testimonials-information-name-02 span,
+.testimonials-information-name-03 span,
+.testimonials-information-name-04 span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
 /*-----------------------SARAH------------------------*/
 .testimonials-interview-01{
     background-color: #FFFFFF;
@@ -69,27 +105,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.testimonials-information-01 a{
-    text-decoration: none;
-    color: #262626;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    background-color: #F7F7F8;
-    border: 1px solid #F1F1F3;
-    border-radius: 8px;
-    padding: 18px 24px;
-}
-.testimonials-information-name-01{
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-.testimonials-information-name-01 span{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
 }
 /*-----------------------Jason------------------------*/
 .testimonials-interview-02{
@@ -118,27 +133,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.testimonials-information-02 a{
-    text-decoration: none;
-    color: #262626;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    background-color: #F7F7F8;
-    border: 1px solid #F1F1F3;
-    border-radius: 8px;
-    padding: 18px 24px;
-}
-.testimonials-information-name-02{
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-.testimonials-information-name-02 span{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
-}
 /*-----------------------EMILY R------------------------*/
 .testimonials-interview-03{
     background-color: #FFFFFF;
@@ -166,27 +160,6 @@
     justify-content: space-between;
     align-items: center;
 }
-.testimonials-information-03 a{
-    text-decoration: none;
-    color: #262626;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    background-color: #F7F7F8;
-    border: 1px solid #F1F1F3;
-    border-radius: 8px;
-    padding: 18px 24px;
-}
-.testimonials-information-name-03{
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-.testimonials-information-name-03 span{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
-}
 /*-----------------------MICHAEL K------------------------*/
 .testimonials-interview-04{
     background-color: #FFFFFF;
@@ -213,25 +186,4 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.testimonials-information-04 a{
-    text-decoration: none;
-    color: #262626;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 150%;
-    background-color: #F7F7F8;
-    border: 1px solid #F1F1F3;
-    border-radius: 8px;
-    padding: 18px 24px;
-}
-.testimonials-information-name-04{
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-.testimonials-information-name-04 span{
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 150%;
 }
