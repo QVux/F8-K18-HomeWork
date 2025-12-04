@@ -1609,6 +1609,8 @@ img {
     text-decoration: none;
     color: #334155;
     text-align: left;
+    width: 100%;
+    white-space: nowrap;
 }
 
 .menu-item a:hover{
@@ -1623,7 +1625,6 @@ img {
 }
 
 .arrow-right {
-    float: right;
     margin-left: 1rem;
     font-size: 0.8rem;
 }

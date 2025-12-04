@@ -1,0 +1,110 @@
+.our-courses{
+    max-width: 1600px;
+    padding: 50px 162px 80px 161px;
+    margin: auto;
+}
+.course-header-title-01{
+    margin-bottom: 80px;
+}
+.course-header h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #262626;
+}
+.course-header-title-01{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.course-header-title-01 span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+    max-width: 1000px;
+}
+.course-header-title-01 a{
+    text-decoration: none;
+    color: #262626;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 18px 24px;
+}
+.course-header-title-01 a:hover{
+    opacity: 0.8;
+}
+.courses-container{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    width: 780px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 12px;
+}
+.course-web-information{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.course-web-information .course-web-information-01{
+    color: #4C4C4D;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    display: flex;
+    gap: 10px;
+}
+.course-web-information .course-web-information-01 .information-1-1{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+.course-web-information .course-web-information-01 .information-1-2{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+.course-web-information .course-web-information-02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-web-design{
+    margin-bottom: 30px;
+}
+.course-web-design h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #262626;
+    margin-bottom: 10px;
+}
+.course-web-design p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+}
+.course-web .course-web-btn{
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    background-color: #F7F7F8;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.course-web a{
+    text-decoration: none;
+    color: #262626;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 18px 24px;
+}
+
