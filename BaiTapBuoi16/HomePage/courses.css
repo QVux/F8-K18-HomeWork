@@ -38,6 +38,7 @@
 .courses-container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 /*-------------------COURSE WEB--------------------*/
 .course-web{
