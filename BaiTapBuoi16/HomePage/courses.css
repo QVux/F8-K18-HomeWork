@@ -35,18 +35,18 @@
 .course-header-title-01 a:hover{
     opacity: 0.8;
 }
+.courses-container-01{
+    margin-bottom: 30px;
+}
+.courses-container-02{
+    margin-bottom: 30px;
+}
 .courses-container-01,
 .courses-container-02,
 .courses-container-03{
     display: flex;
     justify-content: space-between;
     width: 100%;
-}
-.courses-container-01{
-    margin-bottom: 30px;
-}
-.courses-container-02{
-    margin-bottom: 30px;
 }
 .course-web a:hover,
 .course-ux a:hover,
@@ -58,6 +58,8 @@
 }
 .course-web-information,
 .course-ux-information,
+.course-app-information,
+.course-graphic-information,
 .course-front-end-information,
 .course-js-information{
     display: flex;
@@ -178,6 +180,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
+    height: 81px;
     color: #4C4C4D;
 }
 .course-ux .course-ux-btn{

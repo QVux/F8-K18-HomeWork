@@ -11,15 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="banner.css">
     <link rel="stylesheet" href="benefits.css">
     <link rel="stylesheet" href="courses.css">
     <link rel="stylesheet" href="testimonials.css">
+    <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
 <!----------------------------------Header------------------------------------------>
 <header>
     <div id="header-top">
-        <span>Free Courses 🌟 Sale Ends Soon, Get It Now</span>
+        <a id="header--title">Free Courses 🌟 Sale Ends Soon, Get It Now</a>
         <img src="../icons/arrow-right.svg" alt="arrow right" width="16">
     </div>
     <div id="header-bottom">
@@ -27,11 +31,11 @@
             <div id="header--logo"></div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Courses</li>
-                    <li>About Us</li>
-                    <li>Pricing</li>
-                    <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,15 +46,49 @@
     </div>
     <!----------------------------------------Banner-------------------------------->
     <div class="header-banner">
-        <div class="header-banner-title">
-            <img src="../icons/thunder.svg" alt="img-banner">
-            <h1><span class="banner-01">Unlock Your Creative Potential</span> <br> <span class="banner-02">with Online Design and Development Courses.</span></h1>
+        <img src="../icons/banner-img.svg" alt="banner-img-01" class="banner-img-01">
+        <div class="banner-top">
+            <img src="../icons/thunder.svg" alt="banner-img-02">
+            <h1><b>Unlock</b> Your Creative Potential</h1>
         </div>
-        <p>Learn from Industry Experts and Enhance Your Skills.</p>
-        <div class="banner-button">
-            <a href="#" onclick="return false;">Explore Courses</a>
-            <a href="#" onclick="return false;">View Pricing</a>
+        <div class="banner-description">
+            <div class="banner-description-01"><p>with Online Design and Development Courses.</p></div>
+            <div class="banner-description-02"><p>Learn from Industry Experts and Enhance Your Skills.</p></div>
         </div>
+        <div class="banner-action">
+            <a href="#" onclick="return false" class="banner-btn-01">Explore Courses</a>
+            <a href="#" onclick="return false" class="banner-btn-02">View Pricing</a>
+        </div>
+    </div>
+    <div class="banner-bottom">
+        <div class="banner-container">
+            <div class="banner-container--item">
+                <img src="../images/zapier.svg" alt="Zapier">
+            </div>
+            <div class="banner-container--item">
+                <img src="../images/spotify.svg" alt="Spotify">
+            </div>
+            <div class="banner-container--item">
+                <img src="../images/zoom.svg" alt="Zoom">
+            </div>
+            <div class="banner-container--item">
+                <img src="../images/amazon.svg" alt="Zapier">
+            </div>
+            <div class="banner-container--item">
+                <img src="../images/adobe.svg" alt="Adobe">
+            </div>
+            <div class="banner-container--item">
+                <img src="../images/notion.svg" alt="Notion">
+            </div>
+            <div class="banner-container--item">
+                <img src="../images/netflix.svg" alt="Netflix">
+            </div>
+        </div>
+        <div class="banner-container--image">
+            <div><img src="../images/pause.svg" alt="Pause icon"></div>
+            <div class="circle-pause"></div>
+        </div>
+
     </div>
 </header>
 <!-------------------------------------------Main----------------------------------->
@@ -69,19 +107,19 @@
                 <div class="benefit-number">01</div>
                 <div class="benefit-title">Flexible Learning Schedule</div>
                 <div class="benefit-description">Fit your coursework around your existing commitments and obligations.</div>
-                <div class="benefit-icon"><img src="../icons/arrow-up-right.svg" alt="arrow"></div>
+                <div class="benefit-icon"><a href="#" onclick="return false;"><img src="../icons/arrow-up-right.svg" alt="arrow"></a></div>
             </div>
             <div class="benefits-item">
                 <div class="benefit-number">02</div>
                 <div class="benefit-title">Flexible Learning Schedule</div>
                 <div class="benefit-description">Fit your coursework around your existing commitments and obligations.</div>
-                <div class="benefit-icon"><img src="../icons/arrow-up-right.svg" alt="arrow"></div>
+                <div class="benefit-icon"><a href="#" onclick="return false;"><img src="../icons/arrow-up-right.svg" alt="arrow"></a></div>
             </div>
             <div class="benefits-item">
                 <div class="benefit-number">03</div>
                 <div class="benefit-title">Flexible Learning Schedule</div>
                 <div class="benefit-description">Fit your coursework around your existing commitments and obligations.</div>
-                <div class="benefit-icon"><img src="../icons/arrow-up-right.svg" alt="arrow"></div>
+                <div class="benefit-icon"><a href="#" onclick="return false;" ><img src="../icons/arrow-up-right.svg" alt="arrow"></a></div>
             </div>
         </div>
         <div class="benefits-container-02">
@@ -89,19 +127,19 @@
                 <div class="benefit-number">04</div>
                 <div class="benefit-title">Updated Curriculum</div>
                 <div class="benefit-description">Access courses with up-to-date content reflecting the latest trends and industry practices.</div>
-                <div class="benefit-icon"><img src="../icons/arrow-up-right.svg" alt="arrow"></div>
+                <div class="benefit-icon"><a href="#" onclick="return false;"><img src="../icons/arrow-up-right.svg" alt="arrow"></a></div>
             </div>
             <div class="benefits-item">
                 <div class="benefit-number">05</div>
                 <div class="benefit-title">Practical Projects and Assignments</div>
                 <div class="benefit-description">Develop a portfolio showcasing your skills and abilities to potential employers.</div>
-                <div class="benefit-icon"><img src="../icons/arrow-up-right.svg" alt="arrow"></div>
+                <div class="benefit-icon"><a href="#" onclick="return false;"><img src="../icons/arrow-up-right.svg" alt="arrow"></a></div>
             </div>
             <div class="benefits-item">
                 <div class="benefit-number">06</div>
                 <div class="benefit-title">Interactive Learning Environment</div>
                 <div class="benefit-description">Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.</div>
-                <div class="benefit-icon"><img src="../icons/arrow-up-right.svg" alt="arrow"></div>
+                <div class="benefit-icon"><a href="#" onclick="return false;"><img src="../icons/arrow-up-right.svg" alt="arrow"></a></div>
             </div>
         </div>
     </div>
@@ -217,6 +255,7 @@
             </div>
         </div>
     </div>
+
     <!----------------------------------OUR TESTIMONIALS---------------------------------------------->
     <div class="testimonials-01">
         <div class="testimonials-header-title">
@@ -283,6 +322,249 @@
             </div>
         </div>
     </div>
+    <!-----------------------------------------OUR PRICING----------------------------------------------->
+    <div class="pricing">
+        <div class="header-pricing">
+            <h2>Our Pricing</h2>
+            <div class="header-pricing-title">
+                <p>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
+                <div class="header-pricing-btn">
+                    <a href="#" onclick="return false;">Monthly</a>
+                    <a href="#" onclick="return false;">Yearly</a>
+                </div>
+            </div>
+        </div>
+        <div class="pricing-content">
+            <div class="pricing-free">
+                <p class="pricing-title">Free Plan</p>
+                <p class="pricing-amount"><span>$0</span>/month</p>
+                <div class="pricing-available-features">
+                    <p class="pricing-available-features-title">Available Features</p>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Access to selected free courses.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Limited course materials and resources.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Basic community support.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>No certification upon completion.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Ad-supported platform.</p>
+                    </div>
+                    <div class="pricing-available-item-x">
+                        <img src="../icons/tick-x.svg" alt="tick-x">
+                        <p>Access to exclusive Pro Plan community forums.</p>
+                    </div>
+                    <div class="pricing-available-item-x">
+                        <img src="../icons/tick-x.svg" alt="tick-x">
+                        <p>Early access to new courses and updates.</p>
+                    </div>
+                </div>
+                <button>Get Started</button>
+            </div>
+            <div class="pricing-pro">
+                <p class="pricing-title">Pro Plan</p>
+                <p class="pricing-amount"><span>$79</span>/month</p>
+                <div class="pricing-available-features">
+                    <p class="pricing-available-features-title">Available Features</p>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Unlimited access to all courses.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Unlimited course materials and resources.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Priority support from instructors.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Course completion certificates.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Ad-free experience.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Access to exclusive Pro Plan community forums.</p>
+                    </div>
+                    <div class="pricing-available-item-v">
+                        <img src="../icons/tick-v.svg" alt="tick-v">
+                        <p>Early access to new courses and updates.</p>
+                    </div>
+                </div>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------FAQ------------------------------------------------->
+    <div class="faq">
+        <div class="faq-title">
+            <h2>Frequently Asked Questions</h2>
+            <p>Still you have any questions? Contact our Team via support@skillbridge.com</p>
+            <button>See All FAQ’s</button>
+        </div>
+        <div class="faq-questions">
+            <div class="faq-item">
+                <input type="checkbox" id="q1" hidden>
+                <div class="faq-label">
+                    <p>Can I enroll in multiple courses at once?</p>
+                    <label for="q1" class="icon-plus"><img src="../icons/plus.svg" alt="+"></label>
+                    <label for="q1" class="icon-close"><img src="../icons/close.svg" alt="x"></label>
+                </div>
+                <div class="faq-content">
+                    <div class="faq-text">
+                        Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
+                    </div>
+                    <div class="faq-bottom">
+                        <div>
+                            <p>Enrollment Process for Different Courses</p>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="q2" hidden>
+                <div class="faq-label">
+                    <p>What kind of support can I expect from instructors?</p>
+                    <label for="q2" class="icon-plus"><img src="../icons/plus.svg" alt="+"></label>
+                    <label for="q2" class="icon-close"><img src="../icons/close.svg" alt="x"></label>
+                </div>
+                <div class="faq-content">
+                    <div class="faq-text">
+                        Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
+                    </div>
+                    <div class="faq-bottom">
+                        <div>
+                            <p>Enrollment Process for Different Courses</p>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="q3" hidden>
+                <div class="faq-label">
+                    <p>Are the courses self-paced or do they have specific start and end dates?</p>
+                    <label for="q3" class="icon-plus"><img src="../icons/plus.svg" alt="+"></label>
+                    <label for="q3" class="icon-close"><img src="../icons/close.svg" alt="x"></label>
+                </div>
+                <div class="faq-content">
+                    <div class="faq-text">
+                        Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
+                    </div>
+                    <div class="faq-bottom">
+                        <div>
+                            <p>Enrollment Process for Different Courses</p>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="q4" hidden>
+                <div class="faq-label">
+                    <p>Are there any prerequisites for the courses?</p>
+                    <label for="q4" class="icon-plus"><img src="../icons/plus.svg" alt="+"></label>
+                    <label for="q4" class="icon-close"><img src="../icons/close.svg" alt="x"></label>
+                </div>
+                <div class="faq-content">
+                    <div class="faq-text">
+                        Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
+                    </div>
+                    <div class="faq-bottom">
+                        <div>
+                            <p>Enrollment Process for Different Courses</p>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <input type="checkbox" id="q5" hidden>
+                <div class="faq-label">
+                    <p>Can I download the course materials for offline access?</p>
+                    <label for="q5" class="icon-plus"><img src="../icons/plus.svg" alt="+"></label>
+                    <label for="q5" class="icon-close"><img src="../icons/close.svg" alt="x"></label>
+                </div>
+                <div class="faq-content">
+                    <div class="faq-text">
+                        Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.
+                    </div>
+                    <div class="faq-bottom">
+                        <div>
+                            <p>Enrollment Process for Different Courses</p>
+                        </div>
+                        <button></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
+<footer>
+    <div class="footer-content">
+        <div class="footer-right">
+            <img src="../images/logo.svg" alt="Logo">
+            <div>
+                <div class="footer-right--item">
+                    <img src="../icons/mail.svg" alt="mail">
+                    <a href="mailto:hello@skillbridge.com">hello@skillbridge.com</a>
+                </div>
+                <div class="footer-right--item">
+                    <img src="../icons/phone.svg" alt="phone">
+                    <a href="tel:+9191813232309">+91 91813 23 2309</a>
+                </div>
+                <div class="footer-right--item">
+                    <img src="../icons/local.svg" alt="local">
+                    <a>Somewhere in the World</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-left">
+            <div class="footer-left--item">
+                <p>Home</p>
+                <div>
+                    <p>Benefits</p>
+                    <p>Our Courses</p>
+                    <p>Our Testimonials</p>
+                    <p>Our FAQ</p>
+                </div>
+            </div>
+            <div class="footer-left--item">
+                <p>About Us</p>
+                <div>
+                    <p>Company</p>
+                    <p>Achievements</p>
+                    <p>Our Goals</p>
+                </div>
+            </div>
+            <div class="footer-left--item">
+                <p>Social Profiles</p>
+                <div class="logo-item">
+                    <button class="logo-fb"></button>
+                    <button class="logo-tele"></button>
+                    <button class="logo-linkin"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        © 2023 Skillbridge. All rights reserved.
+    </div>
+</footer>
 </body>
 </html>

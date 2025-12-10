@@ -1,0 +1,120 @@
+.faq{
+    max-width: 1280px;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    border-radius: 12px;
+}
+.faq-title{
+    width: 33%;
+    margin: 100px 120px 100px 100px;
+}
+.faq-title h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #262626;
+}
+.faq-title p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #333333;
+}
+.faq-title button{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 18px 24px;
+    color: #262626;
+    margin-top: 50px;
+    display: inline-block;
+}
+.faq-title button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+.faq-questions{
+    width: 67%;
+    margin: 100px 100px 100px 0;
+}
+.faq-item{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px;
+    padding: 30px 50px 20px 50px;
+    margin-bottom: 30px;
+}
+.faq-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faq-label label{
+    background-color: #FFF4E5;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.faq-label .icon-close{
+    display: none;
+}
+.faq-label p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #262626;
+    width: 70%;
+}
+.faq-content{
+    display: none;
+}
+.faq-content .faq-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+    margin: 50px 0;
+}
+.faq-bottom p{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+}
+.faq-bottom{
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 1px solid #F1F1F3;
+    background-color: #F7F7F8;
+    justify-content: space-between;
+}
+.faq-bottom button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: white;
+    background-image: url("../icons/arrow-right-black.svg");
+    color: #4C4C4C;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 56px;
+    height: 56px;
+    border: none;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked ~ .faq-label .icon-plus {
+    display: none;
+}
+input[type="checkbox"]:checked ~ .faq-label .icon-close {
+    display: flex;
+}
+input[type="checkbox"]:checked ~ .faq-content{
+    display: block;
+}

@@ -26,13 +26,15 @@ header{
     cursor: pointer;
 }
 #header-bottom{
-    width: 1600px;
+    max-width: 1600px;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
     border-bottom: 1px solid #F1F1F3;
+    flex-wrap: wrap;
 }
 #header-bottom div{
     display: flex;
@@ -47,6 +49,10 @@ header{
 #header-bottom ul li{
     list-style: none;
     padding: 14px 24px;
+}
+#header-bottom ul li a{
+    text-decoration: none;
+    color: #262626;
 }
 #header--action a{
     text-decoration: none;
@@ -70,29 +76,5 @@ header{
     background-color: #F1F1F3;
     cursor: pointer;
 }
-.header-banner{
-    text-align: center;
-}
-.header-banner-title{
-    display: flex;
-    justify-content: center;
-    background-color: #FCFCFD;
-    border: 1px solid #F1F1F3;
-}
-.header-banner-title img{
-    background-color: #FFF4E5;
-    border-radius: 6px;
-    width: 62px;
-    height: 62px;
-    padding: 14px;
-    gap: 10px;
-}
-.header-banner-title h1 .banner-01{
-    border-radius: 11px;
-    padding: 14px 30px 14px 20px;
-    width: 732px;
-    height: 72px;
-    font-size: 48px;
-    line-height: 150%;
-}
+
 

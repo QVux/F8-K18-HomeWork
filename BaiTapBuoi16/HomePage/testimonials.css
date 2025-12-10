@@ -79,6 +79,12 @@
     font-size: 18px;
     line-height: 150%;
 }
+.testimonials-item-01,
+.testimonials-item-02,
+.testimonials-item-03,
+.testimonials-item-04{
+    width: 100%;
+}
 /*-----------------------SARAH------------------------*/
 .testimonials-interview-01{
     background-color: #FFFFFF;
