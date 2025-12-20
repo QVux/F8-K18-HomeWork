@@ -1,0 +1,527 @@
+@media screen and (max-width: 992px) {
+    .container {
+        padding: 0 16px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #header-bottom {
+        padding: 16px;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .header-banner {
+        margin-top: 30px;
+    }
+
+    #header-bottom nav {
+        display: none;
+    }
+
+    #header--action {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: auto;
+    }
+
+    #header--action .header-button-01 {
+        display: block;
+        padding: 8px 12px;
+        font-size: 14px;
+        white-space: nowrap;
+        background: transparent;
+        border: none;
+    }
+
+    #header--action .header-button-02 {
+        display: block;
+        padding: 8px 16px;
+        font-size: 14px;
+        height: 40px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-button-menu {
+        display: block;
+        cursor: pointer;
+        margin-left: 0;
+    }
+
+    .header-banner {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 16px;
+        height: auto;
+        position: relative;
+    }
+
+    .banner-img-01 {
+        top: -25px;
+        left: 10px;
+        width: 40px;
+    }
+
+    .banner-top {
+        flex-direction: row;
+        text-align: left;
+        padding: 12px;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .banner-top img {
+        margin-bottom: 0;
+        width: 48px;
+        height: 48px;
+        padding: 10px;
+    }
+
+    .banner-top h1 {
+        font-size: 18px;
+        margin: 0;
+        line-height: 1.4;
+    }
+
+    .banner-description-01 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .banner-description-02 {
+        font-size: 14px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .banner-action {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .banner-action .banner-btn-01,
+    .banner-action .banner-btn-02 {
+        width: auto;
+        flex: 1;
+        font-size: 14px;
+        padding: 14px 20px;
+    }
+
+    .banner-bottom {
+        margin: 30px auto;
+        padding: 0 16px;
+        width: 100%;
+    }
+
+    .banner-container {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 10px;
+        gap: 0;
+    }
+
+    .banner-container--item {
+        border-right: 1px solid #F1F1F3;
+        padding: 20px 30px;
+        flex: 0 0 33.33%;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+        border-bottom: none;
+    }
+
+    .banner-container--item:nth-child(n+4) {
+        display: none !important;
+    }
+
+    .banner-container--item:nth-child(3) {
+        border-right: none;
+    }
+
+    .banner-container--image {
+        height: auto;
+        min-height: 200px;
+        margin: 30px auto;
+        padding: 0;
+        width: 100%;
+        background-size: cover;
+        aspect-ratio: 16/9;
+    }
+
+    .benefits-container-01,
+    .benefits-container-02 {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .benefits-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    .benefits-header-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 0 16px;
+    }
+
+    .benefits-header-title h2 {
+        width: 100%;
+    }
+
+    .benefits-header-title-01 {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .benefits-header-title-01 span {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .benefits-header-title-01 a {
+        align-self: flex-end;
+    }
+
+    .benefits,
+    .our-courses,
+    .testimonials-01,
+    .pricing,
+    .faq,
+    .footer-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .courses-container-01,
+    .courses-container-02,
+    .courses-container-03 {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .course-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 0 16px;
+    }
+
+    .course-header-title-01 {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .course-header-title-01 span {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .course-header-title-01 a {
+        align-self: flex-start;
+    }
+
+    .course-web,
+    .course-ux,
+    .course-app,
+    .course-graphic,
+    .course-front-end,
+    .course-js {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 16px;
+        padding: 20px;
+    }
+
+    .course-web,
+    .course-ux,
+    .course-app,
+    .course-graphic,
+    .course-front-end,
+    .course-js {
+        margin-right: 0;
+    }
+
+    .testimonials-container-01 {
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .testimonials-item-01,
+    .testimonials-item-02,
+    .testimonials-item-03,
+    .testimonials-item-04 {
+        width: 100%;
+    }
+
+    .testimonials-header-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 0 16px;
+    }
+
+    .testimonials-header-title-01 {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .testimonials-header-title-01 span {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .pricing-content {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .pricing-content .pricing-free,
+    .pricing-content .pricing-pro {
+        padding: 24px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .header-pricing {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .header-pricing-title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .header-pricing-title p {
+        width: 100%;
+    }
+
+    .header-pricing-btn {
+        margin-top: 10px;
+        align-self: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 12px 16px;
+    }
+
+    .header-pricing-btn a {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .faq {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .faq-title {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        gap: 20px;
+        width: 100%;
+        margin: 30px 0;
+        padding: 0 16px;
+    }
+
+    .faq-questions {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .faq-title p {
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .faq-title button {
+        align-self: flex-start;
+        margin-top: 10px;
+    }
+
+    .faq-label p {
+        width: 85%;
+        text-align: left;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 16px;
+        text-align: left;
+    }
+
+    .footer-right,
+    .footer-left {
+        width: 100%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .footer-right img {
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .footer-right--item {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .footer-left {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 0;
+        row-gap: 30px;
+    }
+
+    .footer-left--item {
+        width: 48%;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .footer-left--item p {
+        text-align: left;
+    }
+
+    .footer-left--item:last-child {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .logo-item {
+        justify-content: flex-start;
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+        text-align: left;
+        justify-content: flex-start;
+        display: flex;
+        width: 100%;
+    }
+
+    .mobile-menu-overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: auto;
+        width: 85%;
+        height: 100vh;
+        background-color: #FFFFFF;
+        z-index: 1000;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        visibility: hidden;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    }
+
+    .mobile-menu-cb:checked~.mobile-menu-overlay {
+        opacity: 1;
+        visibility: visible;
+        right: 0;
+    }
+
+    .mobile-menu-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .mobile-menu-logo img {
+        width: 40px;
+        height: auto;
+    }
+
+    .mobile-menu-close img {
+        width: 34px;
+        cursor: pointer;
+        border-radius: 4px;
+        padding: 4px;
+    }
+
+    .mobile-menu-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .mobile-menu-nav li {
+        width: 100%;
+    }
+
+    .mobile-menu-nav a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+        color: #262626;
+        font-size: 18px;
+        border-radius: 8px;
+        font-weight: 500;
+    }
+
+    .mobile-menu-nav a.active {
+        background-color: transparent;
+    }
+
+    .mobile-menu-nav a:hover {
+        background-color: #F1F1F3;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #header--action {
+        gap: 5px;
+    }
+
+    #header--action .header-button-02 {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .banner-action .banner-btn-01,
+    .banner-action .banner-btn-02 {
+        padding: 12px;
+        font-size: 13px;
+    }
+}

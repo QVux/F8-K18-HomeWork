@@ -1,0 +1,195 @@
+.testimonials-01{
+    max-width: 1600px;
+    padding: 50px 162px 80px 161px;
+    margin: auto;
+}
+.testimonials-header-title-01{
+    margin-bottom: 80px;
+}
+.testimonials-header-title h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    color: #262626;
+}
+.testimonials-header-title-01{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.testimonials-header-title-01 span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #59595A;
+    max-width: 1000px;
+}
+.testimonials-header-title-01 a{
+    text-decoration: none;
+    color: #262626;
+    background-color: #FCFCFD;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 18px 24px;
+}
+.testimonials-header-title-01 a:hover{
+    opacity: 0.8;
+}
+.testimonials-container-01{
+    display: flex;
+    margin-bottom: 30px;
+}
+.testimonials-item-01,
+.testimonials-item-03{
+    margin-right: 30px;
+}
+.testimonials-information-01 a:hover,
+.testimonials-information-02 a:hover,
+.testimonials-information-03 a:hover,
+.testimonials-information-04 a:hover{
+    opacity: 0.8;
+}
+.testimonials-information-01 a,
+.testimonials-information-02 a,
+.testimonials-information-03 a,
+.testimonials-information-04 a{
+    text-decoration: none;
+    color: #262626;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    background-color: #F7F7F8;
+    border: 1px solid #F1F1F3;
+    border-radius: 8px;
+    padding: 18px 24px;
+}
+.testimonials-information-name-01,
+.testimonials-information-name-02,
+.testimonials-information-name-03,
+.testimonials-information-name-04{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.testimonials-information-name-01 span,
+.testimonials-information-name-02 span,
+.testimonials-information-name-03 span,
+.testimonials-information-name-04 span{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+.testimonials-item-01,
+.testimonials-item-02,
+.testimonials-item-03,
+.testimonials-item-04{
+    width: 100%;
+}
+/*-----------------------SARAH------------------------*/
+.testimonials-interview-01{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px 12px 0 0;
+    padding: 50px;
+}
+.testimonials-interview-01 p{
+    width: 100%;
+    height: 81px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-information-01{
+    background-color: #FCFCFD;
+    border: 1px solid #FCFCFD;
+    border-radius: 0 0 12px 12px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*-----------------------Jason------------------------*/
+.testimonials-interview-02{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px 12px 0 0;
+    padding: 50px;
+}
+.testimonials-interview-02 p{
+    width: 100%;
+    height: 81px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-information-02{
+    background-color: #FCFCFD;
+    border: 1px solid #FCFCFD;
+    border-radius: 0 0 12px 12px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*-----------------------EMILY R------------------------*/
+.testimonials-interview-03{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px 12px 0 0;
+    padding: 50px;
+}
+.testimonials-interview-03 p{
+    width: 100%;
+    height: 81px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-information-03{
+    background-color: #FCFCFD;
+    border: 1px solid #FCFCFD;
+    border-radius: 0 0 12px 12px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*-----------------------MICHAEL K------------------------*/
+.testimonials-interview-04{
+    background-color: #FFFFFF;
+    border: 1px solid #F1F1F3;
+    border-radius: 12px 12px 0 0;
+    padding: 50px;
+}
+.testimonials-interview-04 p{
+    width: 100%;
+    height: 81px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #4C4C4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testimonials-information-04{
+    background-color: #FCFCFD;
+    border: 1px solid #FCFCFD;
+    border-radius: 0 0 12px 12px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
