@@ -27,20 +27,20 @@ console.log("Hello" - y) // Result 4
 
 
 // Task 3
-let age, mathScore, isVip
+let age, mathScore, isVIP
 
 // Case 1
 age = 9
 mathScore = 10
 isVip = false
-let canEnter = ((age >= 10 && mathScore > 7) || isVip)
+let canEnter = ((age >= 10 && mathScore > 7) || isVIP)
 console.log(canEnter) // => false
 
 // Case 2
 age = 9
 mathScore = 10
 isVip = true
-canEnter = (age >= 10 && mathScore > 7) || isVip
+canEnter = (age >= 10 && mathScore > 7) || isVIP
 console.log(canEnter) // => true
 
 // Logic Question
