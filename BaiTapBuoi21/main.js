@@ -73,7 +73,7 @@ console.log(laptop.spec.ram)
 // Since laptop also points to 0x01, laptop.brand is also changed.
 
 // mySpec
-//Prediction: ram = "16GB"
+// Prediction: ram = "16GB"
 // Since spec is also a child object in memory at address (e.g., 0x04), laptop.spec will store the address at 0x04.
 // When you assign 'const mySpec = laptop.spec', both mySpec and laptop.spec point to the address 0x04.
 // Therefore, when you change 'mySpec.ram = "16GB"', the change is also happening at address 0x04, so laptop.spec.ram will also change.
