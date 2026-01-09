@@ -24,11 +24,12 @@ console.log(checkTriangle)
 
 // Task 2.
 function isPerfectSquare(a) {
-    if (a < 0) return false;
-    const b = a ** 0.5;
-    return Number.isInteger(b);
+    if (a < 0)
+        return false
+    const b = a ** 0.5
+    return Number.isInteger(b)
 }
-console.log(isPerfectSquare(6));
-console.log(isPerfectSquare(9));
+console.log(isPerfectSquare(6))
+console.log(isPerfectSquare(9))
 
 
