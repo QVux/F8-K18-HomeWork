@@ -23,18 +23,14 @@ let checkTriangle = classifyTriangle(1, 2, 3)
 console.log(checkTriangle)
 
 // Task 2.
-const isPerfectSquare = (n) => {
-    if (!Number.isInteger(n) || n < 0) {
-        return "Invalid number"
-    }
-    for (let i = 0; i * i <= n; i++) {
-        if (i * i === n) {
-            return `${n} is a perfect square`
-        }
-    }
-    return `${n} is not a perfect square`
+function isPerfectSquare(a) {
+    if (a < 0) return false;
+
+    const b = a ** 0.5;
+    return Number.isInteger(b);
 }
-console.log(isPerfectSquare(9))
-console.log(isPerfectSquare(-12))
-console.log(isPerfectSquare(11))
+
+console.log(isPerfectSquare(6));
+console.log(isPerfectSquare(9));
+
 
