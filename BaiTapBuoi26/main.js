@@ -83,20 +83,3 @@ const deleteOrder = (orderId) => {
 
     return { data: "Deleted successfully" }
 }
-
-console.log(createOrder(1, 5))
-console.log(createOrder(1, -3))
-console.log(createOrder(10, 2))
-
-console.log("====== UPDATE ======")
-console.log(updateOrder(1, null))
-console.log(updateOrder(1, 100))
-console.log(updateOrder(1, 8))
-
-console.log("====== DELETE ======")
-console.log(deleteOrder(1))
-console.log(deleteOrder(99))
-
-console.log("====== FINAL DATA ======")
-console.log("Orders:", orders)
-console.log("Products:", products)
